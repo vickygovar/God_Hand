@@ -17,7 +17,135 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\cWorldTime.cpp" />
+    <ClCompile Include="include\Quaternion.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BlackJackId.h" />
+    <ClInclude Include="include\cActionButton.h" />
+    <ClInclude Include="include\cActionButtonUnit.h" />
+    <ClInclude Include="include\cArea.h" />
+    <ClInclude Include="include\cAreaCamManager.h" />
+    <ClInclude Include="include\cBgmData.h" />
+    <ClInclude Include="include\cBoundingBox.h" />
+    <ClInclude Include="include\cCamera.h" />
+    <ClInclude Include="include\cCamManager.h" />
+    <ClInclude Include="include\cCockGetPoint.h" />
+    <ClInclude Include="include\cCockMess.h" />
+    <ClInclude Include="include\cCockPlBar.h" />
+    <ClInclude Include="include\cCockScroll.h" />
+    <ClInclude Include="include\cCockTutorial.h" />
+    <ClInclude Include="include\cCollisionManager.h" />
+    <ClInclude Include="include\cCollisionScroll.h" />
+    <ClInclude Include="include\cCollisionShape.h" />
+    <ClInclude Include="include\cCollisionSolid.h" />
+    <ClInclude Include="include\cCollisionSolidManage.h" />
+    <ClInclude Include="include\cCollisionUtils.h" />
+    <ClInclude Include="include\cCoreSave.h" />
+    <ClInclude Include="include\cDamageGive.h" />
+    <ClInclude Include="include\cDamageManage.h" />
+    <ClInclude Include="include\cDamageUnit.h" />
+    <ClInclude Include="include\cDataHolder.h" />
+    <ClInclude Include="include\cDataManager.h" />
+    <ClInclude Include="include\cDoor.h" />
+    <ClInclude Include="include\cDvd.h" />
+    <ClInclude Include="include\cE3.h" />
+    <ClInclude Include="include\cEm00.h" />
+    <ClInclude Include="include\cEm12.h" />
+    <ClInclude Include="include\cEm53.h" />
+    <ClInclude Include="include\cEm57.h" />
+    <ClInclude Include="include\cEma2.h" />
+    <ClInclude Include="include\cEmBase.h" />
+    <ClInclude Include="include\cEmManage.h" />
+    <ClInclude Include="include\cEmSetParam.h" />
+    <ClInclude Include="include\cEmWrap.h" />
+    <ClInclude Include="include\cEvent.h" />
+    <ClInclude Include="include\cEventConfig.h" />
+    <ClInclude Include="include\cFont.h" />
+    <ClInclude Include="include\cGame.h" />
+    <ClInclude Include="include\cGameObj.h" />
+    <ClInclude Include="include\cHeap.h" />
+    <ClInclude Include="include\cHeatSys.h" />
+    <ClInclude Include="include\cIDBase.h" />
+    <ClInclude Include="include\cIDManager.h" />
+    <ClInclude Include="include\cIDParam.h" />
+    <ClInclude Include="include\classCFILTER_TAG.h" />
+    <ClInclude Include="include\classFADE.h" />
+    <ClInclude Include="include\classPAD_WORK.h" />
+    <ClInclude Include="include\cMc.h" />
+    <ClInclude Include="include\cMessage.h" />
+    <ClInclude Include="include\cMessCommon.h" />
+    <ClInclude Include="include\cMessDrawFont.h" />
+    <ClInclude Include="include\cModel.h" />
+    <ClInclude Include="include\cMotCamera.h" />
+    <ClInclude Include="include\cMovie.h" />
+    <ClInclude Include="include\cNode.h" />
+    <ClInclude Include="include\cNowLoading.h" />
+    <ClInclude Include="include\cObj.h" />
+    <ClInclude Include="include\cObjBase.h" />
+    <ClInclude Include="include\cObjBaseArray.h" />
+    <ClInclude Include="include\cOl1b.h" />
+    <ClInclude Include="include\cOl2b.h" />
+    <ClInclude Include="include\cOl30.h" />
+    <ClInclude Include="include\cOl40.h" />
+    <ClInclude Include="include\ColiseumBattle.h" />
+    <ClInclude Include="include\cOm1f.h" />
+    <ClInclude Include="include\cOm4f.h" />
+    <ClInclude Include="include\cOm53.h" />
+    <ClInclude Include="include\cOm59.h" />
+    <ClInclude Include="include\cOm5a.h" />
+    <ClInclude Include="include\cOm60.h" />
+    <ClInclude Include="include\cOm71.h" />
+    <ClInclude Include="include\cOmBase.h" />
+    <ClInclude Include="include\cOmbb.h" />
+    <ClInclude Include="include\cOmbe.h" />
+    <ClInclude Include="include\cOmDoor.h" />
+    <ClInclude Include="include\cOmDoor2.h" />
+    <ClInclude Include="include\cOme9.h" />
+    <ClInclude Include="include\cOmItem.h" />
+    <ClInclude Include="include\cOmSetParam.h" />
+    <ClInclude Include="include\cOmSub.h" />
+    <ClInclude Include="include\cOmThrow.h" />
+    <ClInclude Include="include\cOmTrump.h" />
+    <ClInclude Include="include\cOmWeapon.h" />
+    <ClInclude Include="include\cPadVib.h" />
+    <ClInclude Include="include\cParts.h" />
+    <ClInclude Include="include\cPartsCamera.h" />
+    <ClInclude Include="include\cPlBase.h" />
+    <ClInclude Include="include\cPlCamera.h" />
+    <ClInclude Include="include\cRelSys.h" />
+    <ClInclude Include="include\cRoomJump.h" />
+    <ClInclude Include="include\cRoomSave.h" />
+    <ClInclude Include="include\cSaveLoad.h" />
+    <ClInclude Include="include\cSaveManager.h" />
+    <ClInclude Include="include\cSceAtManager.h" />
+    <ClInclude Include="include\cSceAtUnit.h" />
+    <ClInclude Include="include\cScenario.h" />
+    <ClInclude Include="include\cScrArray.h" />
+    <ClInclude Include="include\cScrSpriteDraw.h" />
+    <ClInclude Include="include\cSeData.h" />
+    <ClInclude Include="include\cSescr.h" />
+    <ClInclude Include="include\cSnd.h" />
+    <ClInclude Include="include\cSpline.h" />
+    <ClInclude Include="include\cSubScr.h" />
+    <ClInclude Include="include\cTaskManager.h" />
+    <ClInclude Include="include\cTaskWork.h" />
+    <ClInclude Include="include\CustomIDWork.h" />
+    <ClInclude Include="include\cWorldLight.h" />
+    <ClInclude Include="include\cWorldTime.h" />
+    <ClInclude Include="include\ESLib.h" />
+    <ClInclude Include="include\espSys.h" />
+    <ClInclude Include="include\HideModelMgr.h" />
+    <ClInclude Include="include\IK.h" />
+    <ClInclude Include="include\objScroll.h" />
+    <ClInclude Include="include\ostream.h" />
+    <ClInclude Include="include\PathFinding.h" />
+    <ClInclude Include="include\pl00.h" />
+    <ClInclude Include="include\pl01.h" />
+    <ClInclude Include="include\PokerId.h" />
+    <ClInclude Include="include\Quaternion.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -53,27 +181,24 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
-
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared" >
+  <ImportGroup Label="Shared">
   </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -130,8 +255,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-
-  <ItemGroup></ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
